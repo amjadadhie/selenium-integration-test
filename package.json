@@ -4,9 +4,11 @@
   "type": "module",
   "scripts": {
     "test:IT-01": "node e2e-tests/IT01-register-login.test.js",
-    "test:IT-02":"node e2e-tests/IT02-manage-channel.test.js",
+    "test:IT-02": "node e2e-tests/IT02-manage-channel.test.js",
     "test:IT-03": "node e2e-tests/IT03-channel-call.test.js",
-    "test:IT-04": "node e2e-tests/IT04-playback-download.test.js"
+    "test:IT-04": "node e2e-tests/IT04-playback-download.test.js",
+    "test:IT-01-Raka": "node e2e-tests/IT-01-otentikasi.test.js",
+    "test:IT-02-Raka": "node e2e-tests/IT-02-kontak.test.js"
   },
   "dependencies": {
     "selenium-webdriver": "^4.33.0"

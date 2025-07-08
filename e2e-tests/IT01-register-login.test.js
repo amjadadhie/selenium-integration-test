@@ -8,7 +8,7 @@ async function main() {
     console.log("🔎 Membuka halaman register...");
 
     await driver.wait(until.elementLocated(By.id("username")), 10000);
-    await driver.findElement(By.id("username")).sendKeys("amjad_tes3");
+    await driver.findElement(By.id("username")).sendKeys("amjad_test5");
     await driver.findElement(By.id("password")).sendKeys("123456");
 
     await driver.findElement(By.css("button[type='submit']")).click();
@@ -16,7 +16,7 @@ async function main() {
     await driver.wait(until.urlContains("/login"), 5000);
 
     await driver.wait(until.elementLocated(By.id("username")), 5000);
-    await driver.findElement(By.id("username")).sendKeys("amjad_test3");
+    await driver.findElement(By.id("username")).sendKeys("amjad_test5");
     await driver.findElement(By.id("password")).sendKeys("123456");
     await driver.findElement(By.css("button[type='submit']")).click();
 
