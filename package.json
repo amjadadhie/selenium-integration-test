@@ -8,7 +8,9 @@
     "test:IT-03": "node e2e-tests/IT03-channel-call.test.js",
     "test:IT-04": "node e2e-tests/IT04-playback-download.test.js",
     "test:IT-01-Raka": "node e2e-tests/IT-01-otentikasi.test.js",
-    "test:IT-02-Raka": "node e2e-tests/IT-02-kontak.test.js"
+    "test:IT-02-Raka": "node e2e-tests/IT-02-kontak.test.js",
+    "test:IT-03-Raka": "node e2e-tests/IT-03-panggilan.test.js",
+    "test:IT-04-Raka": "node e2e-tests/IT-02-settings.test.js"
   },
   "dependencies": {
     "selenium-webdriver": "^4.33.0"
